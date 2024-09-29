@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Sinera";
+    src: url(Assets/Sinera.otf)
+}
+
+body {
+    background-color: blue;
+    color: black;
+    margin: 0%;
+    font-family: Sinera;
+}
+
+.topbar {
+    margin-top: 1rem;
+    padding: 0;
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 64px; 
+    justify-content: center; 
+    justify-items: center; 
+    align-items: center; 
+}
+
+
+.a-icons:active {
+    filter: drop-shadow(0 0 1rem rgb(255, 0, 0));
+}
